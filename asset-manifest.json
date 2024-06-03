@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/survelliance-app/static/css/main.bb051336.css",
+    "main.js": "/survelliance-app/static/js/main.ab680d80.js",
+    "static/js/453.5565870f.chunk.js": "/survelliance-app/static/js/453.5565870f.chunk.js",
+    "index.html": "/survelliance-app/index.html",
+    "main.bb051336.css.map": "/survelliance-app/static/css/main.bb051336.css.map",
+    "main.ab680d80.js.map": "/survelliance-app/static/js/main.ab680d80.js.map",
+    "453.5565870f.chunk.js.map": "/survelliance-app/static/js/453.5565870f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bb051336.css",
+    "static/js/main.ab680d80.js"
+  ]
+}
