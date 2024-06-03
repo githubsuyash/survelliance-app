@@ -1,0 +1,80 @@
+.video-page {
+  padding: 20px;
+}
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.card {
+  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(120, 207, 241, 0.5));
+  
+  padding: 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.card:hover {
+  background: #503434;
+}
+/*.live-section {
+  margin-top: 40px;
+  position: relative;
+}*/
+.live-section {
+  margin-top: 40px;
+  position: relative;
+  max-width: 640px; /* Adjust the max-width to control the size of the video container */
+  margin-left: auto;
+  margin-right: auto;
+}
+/*.video-preview, .video-canvas {
+  width: 100%;
+  max-width: 600px;
+  height: 400px;
+  background: black;
+}*/
+
+.video-preview {
+  width: 100%;
+  height: auto; /* Maintain aspect ratio */
+  max-height: 360px; /* Set a maximum height if needed */
+  background: linear-gradient(to bottom, #ffffff, #cccccc); /* Add gradient background */
+}
+
+
+.video-canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+  
+}
+/*
+.video-canvas {
+  width: 100%;
+  height: auto; 
+  max-height: 360px; 
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: rgb(90, 76, 76); 
+}*/
+
+/*controls {
+  margin-top: 10px;
+}*/
+.controls {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center; /* Center the control buttons */
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
